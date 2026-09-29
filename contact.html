@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Abasifreke Jacob - Data Analyst">
+    <title>Contact | Abasifreke Jacob</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="container nav-container">
+
+        <a href="index.html" class="logo">AJ<span>.</span></a>
+
+        <nav class="nav" id="mainNav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="skills.html" class="nav-link">Skills</a>
+            <a href="projects.html" class="nav-link">Projects & Experience</a>
+            <a href="contact.html" class="nav-link active">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<main>
+
+<section class="page-hero">
+
+    <div class="container reveal">
+
+        <span class="eyebrow">GET IN TOUCH</span>
+
+        <h1>Let's Talk About <span>Data</span></h1>
+
+        <p>
+            Have a question, project or opportunity? Send a message and
+            let's start a conversation.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="contact-section section">
+
+    <div class="container contact-grid">
+
+        <div class="contact-info reveal">
+
+            <span class="eyebrow">CONTACT ME</span>
+
+            <h2>Let's work together.</h2>
+
+            <p>
+                Whether you need help analyzing data, organizing information
+                or creating useful insights, feel free to reach out.
+            </p>
+
+
+            <div class="contact-list">
+
+                <a href="https://wa.me/2349133039203" target="_blank" class="contact-item">
+
+                    <div class="contact-icon whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+
+                    <div>
+                        <span>WhatsApp</span>
+                        <strong>09133039203</strong>
+                    </div>
+
+                </a>
+
+
+                <a href="https://www.instagram.com/jacob_abas11?stkn=dmU2djl2bGgwN2F1" class="contact-item" target="_blank" rel="noopener noreferrer">
+
+                    <div class="contact-icon instagram">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+
+                    <div>
+                        <span>Instagram</span>
+                        <strong>@jacob_abas11</strong>
+                    </div>
+
+                </a>
+
+
+                <a href="https://github.com/jacobabasifreke2-ship-it" class="contact-item" target="_blank" rel="noopener noreferrer">
+
+                    <div class="contact-icon github">
+                        <i class="fab fa-github"></i>
+                    </div>
+
+                    <div>
+                        <span>GitHub</span>
+                        <strong>GitHub Profile</strong>
+                    </div>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="contact-form-wrapper reveal">
+
+            <form
+                action="https://formspree.io/f/mkjgkqqw"
+                method="POST"
+                class="contact-form"
+                id="contactForm"
+            >
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Your name"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            required
+                        >
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="service">What do you need?</label>
+
+                    <select id="service" name="service" required>
+
+                        <option value="" disabled selected>
+                            Select a service
+                        </option>
+
+                        <option value="Data Analysis with Python">
+                            Data Analysis with Python
+                        </option>
+
+                        <option value="Data Cleaning & Processing">
+                            Data Cleaning & Processing
+                        </option>
+
+                        <option value="Data Visualization & Reporting">
+                            Data Visualization & Reporting
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="7"
+                        placeholder="Tell me about your project..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button type="submit" class="btn btn-primary submit-btn">
+
+                    Send Message
+                    <i class="fas fa-paper-plane"></i>
+
+                </button>
+
+
+                <p class="form-status" id="formStatus"></p>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="container footer-content">
+
+        <div>
+            <a href="index.html" class="logo">AJ<span>.</span></a>
+            <p>Data Analyst | Nigeria</p>
+        </div>
+
+        <div class="social-links">
+
+            <a href="https://wa.me/2349133039203" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-github"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © <span id="year"></span> Abasifreke Jacob. All Rights Reserved.
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
