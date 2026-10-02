@@ -396,13 +396,13 @@ button {
 }
 
 .card-python {
-    top: 65px;
+    top: 140px;
     left: 0;
 }
 
 .card-data {
     right: 0;
-    bottom: 75px;
+    bottom: 100px;
     animation-delay: 1s;
 }
 
